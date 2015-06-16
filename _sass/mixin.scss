@@ -18,19 +18,21 @@
           transform: translateX($x);
   width: 100%;
   @media (min-width: 940px) {
-    width: 30%;
+    width: 15%;
+		margin-left: 15px;
   }
 }
 
 @mixin nav-position($position) {
-	width: 14rem;
+	width: 4rem;
   position: fixed;
   background-color: $main-color;
-  top: 0;
-  bottom: 0;
+  //top: 0;
+  //bottom: 0;
+	height:auto;
   #{$position}: -14rem;
   color: $background-color;
-  opacity: 0.95;
+  opacity: 1;
   -webkit-transition: all 0.3s ease-in;
      -moz-transition: all 0.3s ease-in;
       -ms-transition: all 0.3s ease-in;

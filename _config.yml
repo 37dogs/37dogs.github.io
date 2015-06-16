@@ -1,19 +1,19 @@
 # Site settings
-title: Emerald | A simple Jekyll blog
-description: "A minimal blog template, build with Jekyll."
-url: "http://www.jacoporabolini.com/emerald"
+title: thirty-seven
+description: "commentary from an interesting perspective"
+url: "http://127.0.0.1:4000"
 author:
-  name: "Jacopo Rabolini"
-  email: "hello@jacoporabolini.com"
-  url: "http://www.jacoporabolini.com"
+  name: "Brandon Fannin"
+  email: "brandon@37dogs.com"
+  url: "http://www.37dogs.com"
 
 # Build settings
-baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
 permalink: /:title
-paginate: 8
+paginate: 5
 paginate_path: /page:num/
 
 # Default values
@@ -31,4 +31,4 @@ version: "1.1.0"
 # Options
 custom_header: false
 custom_nav_footer: false
-reverse: false
+reverse: true
