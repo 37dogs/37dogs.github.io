@@ -1,6 +1,7 @@
 # Site settings
-title: thirty-seven
+title: 37 woof
 description: "commentary from an interesting perspective"
+twitter_username: 37dogs
 url: "http://127.0.0.1:4000"
 author:
   name: "Brandon Fannin"
@@ -25,10 +26,16 @@ defaults:
     values:
       layout: "post"
 
+
 # Custom variables
 version: "1.1.0"
 
 # Options
-custom_header: false
-custom_nav_footer: false
 reverse: true
+
+# Gems
+gems: ['jekyll-lunr-js-search']
+
+#Lunr search excludes
+lunr_search:
+  excludes: [rss.xml, atom.xml]

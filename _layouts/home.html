@@ -5,22 +5,9 @@
 
 <body>
 	<div id="wrap">
-
-	  	<!-- Navigation -->
-	  	{% include menu.html %}
-
-    <!-- Icon menu -->
-	  <a href="#" {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
-	  	<div id="menu"></div>
-	  </a>
-		<h4 style="font-family: 'Cabin Sketch', serif; margin-top: 22px; margin-left: 60px;"><a href="{{ site.baseurl }}">37</h4>
-
       <!-- Header -->
-      {% if site.custom_header == true %}
-        {% include header-custom.html %}
-      {% else %}
-        {% include header.html %}
-      {% endif %}
+      {% include header.html %}
+
     <!-- Main content -->
 <div id="main-posts">
 	<main>
@@ -56,49 +43,45 @@
           {% endif %}
         </div>
         {% endif %}
-
 	  </div>
 
 		<div id="photo-bar">
-			<table style="width:100%;">
-				<tr>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-				</tr>
-				<tr>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-				</tr>
-				<tr>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-				</tr>
-				<tr>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-				</tr>
-				<tr>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-					<td><img src="http://placehold.it/100x100"></td>
-				</tr>
-			</table>
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
+			<img src="http://placehold.it/100x100">
 
 		</div>
 		<!-- Footer -->
-		<!-- Couldn't get it to work. Who needs a footer?! {% include footer.html %} -->
 
 		<!-- Script -->
 		{% include script.html %}
+		{% include footer.html %}
+
 </div>
+
 </body>
 </html>

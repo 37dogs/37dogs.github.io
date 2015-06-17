@@ -4,8 +4,8 @@
 
 @mixin icon-position($position) {
 	display: block;
-  position: absolute;
-  top: 35px;
+  position: fixed;
+  top: 20px;
   #{$position}: 25px;
   z-index: 10;
   height: 24px;
@@ -18,15 +18,16 @@
           transform: translateX($x);
   width: 100%;
   @media (min-width: 940px) {
-    width: 15%;
+    width: 30%;
 		margin-left: 15px;
+		margin-top: 10px;
   }
 }
 
 @mixin nav-position($position) {
 	width: 4rem;
-  position: fixed;
-  background-color: $main-color;
+  position:fixed;
+  background-color: darken($main-color, 10%);
   //top: 0;
   //bottom: 0;
 	height:auto;
@@ -38,6 +39,6 @@
       -ms-transition: all 0.3s ease-in;
           transition: all 0.3s ease-in;
   z-index: 1;
-  padding: 72px 0;
+  padding: 50px 10px 20px 10px;
   text-align: center;
 }

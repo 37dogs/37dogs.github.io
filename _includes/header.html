@@ -1,7 +1,18 @@
-<header id="header">
-<!--	<a href="{{ site.baseurl }}">
-		<img src="{{ "img/emerald.svg" | prepend: site.baseurl }}" alt="Emerald Logo">
-	  <h1>37dogs</h1>
-	</a>
--->
-</header>
+<div id="header">
+	<!-- Navigation -->
+	{% include menu.html %}
+
+<!-- Icon menu -->
+<a href="#" {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
+	<div id="menu"></div>
+</a>
+<h4 class="title"><a href="{{ site.baseurl }}">37</a></h4>
+
+<div id="search">
+	<form action="/search" method="get">
+		<i class="fa fa-search"></i>
+		<input type="text" id="search-query" name="q" placeholder="Search..." autocomplete="off">
+	</form>
+</div>
+
+</div>

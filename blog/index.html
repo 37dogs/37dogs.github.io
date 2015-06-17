@@ -1,17 +1,29 @@
 ---
-layout: page
+layout: default
 ---
-<h4>Recent Posts</h4>
+<!--recent posts -->
+<h3 class="page-header">Recent Posts</h3>
+</br>
 <!-- Posts -->
 <ul id="posts">
 
-	{% for post in site.paginator.posts %}
+	{% for post in site.posts %}
 
 	  <li class="post">
-	  	<h2 style="font-family: 'Cabin Sketch', serif;"><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{{ post.title }}</a></h2>
+			<h4 style="font-family: 'Cabin Sketch', serif;">
+				<a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+					{{ post.title }}
+				</a>
+			</h4>
 	  	<time datetime="{{ post.date | date_to_xmlschema }}" class="by-line">{{ post.date | date_to_string }}</time>
-	  	<p style="background-color:#9c9c9c">{{ post.content | strip_html | truncatewords:50 }}</p>
+	  	<p style="background-color:#9c9c9c; padding: 10px;">{{ post.content | strip_html | truncatewords:100 }}</p>
 	  </li>
+
+		<strong>
+			<p class="post-after">
+				<a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">Read More ...</a>
+			</p>
+		</strong>
 
     {% endfor %}
 

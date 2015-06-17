@@ -1,7 +1,7 @@
 <nav {% if site.reverse == true %}id="nav-left"{% else %}id="nav"{% endif %}>
 	<div id="nav-list">
-		<a href="{{ site.baseurl }}" style="font-family:'Cabin Sketch', serif; font-size:2em;">37dogs</a>
-		<p style="color: black;">commentary from an interesting perspective</p>
+		<a href="{{ site.baseurl }}" style="font-family:'Cabin Sketch', serif; font-size:2em; color: black;">37dogs</a>
+		<p style="color:black;">commentary from an interesting perspective</p>
 		<!-- Nav pages -->
 	  {% for page in site.pages %}
 	    {% if page.layout == "page" %}
@@ -15,10 +15,6 @@
 	</div>
 
   <!-- Nav footer -->
-	{% if site.custom_nav_footer == true %}
-	  {% include nav-footer-custom.html %}
-	{% else %}
-	  {% include nav-footer.html %}
-	{% endif %}
+	{% include nav-footer.html %}
 
 </nav>

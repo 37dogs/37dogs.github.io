@@ -1,20 +1,25 @@
 /* -- General Layout -- */
 
+.title {
+  font-family: 'Cabin Sketch', serif;
+  margin-top: 7px;
+  margin-left: 60px;
+  position: fixed;
+}
 /* Navigation */
 
 #nav, #nav-left {
   a {
-    display: block;
+    display: inline;
     color: $text-color;
-    //padding: 0.33334em 0;
     font-size: 1.5em;
     font-weight: 400;
     @media (min-width: 940px) {
       font-size: 1em;
     }
     &:hover {
-      //background-color: lighten($main-color, 5%);
-      color: lighten($text-color, 20%);
+      background-color: lighten($main-color, 5%);
+      color: darken($text-color, 20%);
     }
   }
   span {
@@ -111,70 +116,336 @@
   }
 }
 
-#container {
-
+#wrap {
+width: 100%;
 }
 
 #main-posts {
+  margin-top: 5%;
   float: left;
-  max-width: 700px;
-  margin-left: 20%;
+  max-width: 50%;
+  margin-left: 10%;
 }
 
 #photo-bar {
   float: right;
-  margin-right: 20%;
+  margin-top: 7%;
+  max-width: 20%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  margin-right: 10%;
+  display: inline-grid;
 }
 
-#header {
-	text-align: center;
-  padding: 24px 0;
-  position: relative;
+#search-results {
+    max-width: 40%;
+    margin-left: 10%;
+    margin-top: -20px;
+    background-color: $background-color;
+    position: fixed;
+    .entries {
+      margin-top: -15px;
+    }
+}
+
+#search-result {
+  display: block;
+  time {
+      color: darken($background-color, 40%);
+      font-size: .6em;
+    }
+
   a {
-  	text-decoration: none;
-  	color: $text-color;
-  	display: inline-block;
+    &:hover {
+      color: #086BCF;
+    }
   }
-  img {
-  	max-height: 72px;
-  	margin: 0 auto;
-  	display: block;
-  }
-  h1 {
-  	font-family: 'Cabin Sketch', serif; //Emerald logo font
-    font-weight: 600;
-  }
-/*  &:after {
-  	display: block;
+
+  &::before {
+    display: block;
     content: '';
-    width: 5rem;
-    height: 1px;
-    margin: 23px auto;
-    background-color: $text-color;
-  }*/
+    text-align: center;
+    height: 2px;
+    margin: auto;
+    background-color: darken($background-color, 6%);
+  }
 }
 
-table, th, td {
-    padding: 0px;
+.mdash {
+  color: darken($background-color, 30%);
 }
 
-table {
-  border-spacing:0;
-  border-collapse: collapse;
+#search {
+  position:relative;
+  float: right;
+  margin-top: 15px;
+  margin-right: 11%;
+  max-width: 30%;
+  form {
+
+      i {
+          position: absolute;
+          margin-left: 15px;
+          margin-top: 9px;
+
+          .fa {
+            text-size: 2em;
+          }
+
+
+      }
+
+      input {
+        height: 35px;
+        background-color: darken($background-color, 10%);
+        border: none;
+        font-size: 1em;
+        float:left;
+        color: $text-color;
+        font-family: 'Special Elite', serif;
+        padding-left: 45px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        outline: none;
+
+        &:hover {
+          background-color: darken($background-color, 5%);
+        }
+
+      }
+
+    }
+
+  }
+
+  #tags {
+    margin-bottom: 10%;
+  }
+  .archive-group {
+    margin: 5px;
+
+    h3 {
+      background-color: darken($background-color, 10%);
+      padding-left: 10px;
+    }
+
+    &::after {
+      display: block;
+      content: '';
+      text-align: center;
+      height: 2px;
+      margin: auto;
+      background-color: darken($background-color, 5%);
+    }
+  }
+  .archive-item {
+    margin-left: 10%;
+    a:hover {
+      color: #086BCF;
+    }
+
+    .dates {
+      color: darken($background-color, 30%);
+      font-size: .9em;
+    }
+    }
+
+.post-tags {
+  margin-bottom:5%;
+  a {
+    display: inline-block;
+    position: relative;
+    background-color: darken($background-color, 10%);
+    padding:7px;
+    font-size: .7em;
+
+    &:hover{
+      font-size: .8em;
+      color: #086BCF;
+    }
+  }
+}
+
+#tag-cloud {
+    h2 {
+      font-family: 'Cabin Sketch', serif;
+    }
+
+    ul {
+      list-style-type:none;
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+      background-color: darken($background-color, 10%);
+      padding:7px;
+    }
+
+    a:hover {
+      font-size: 1.5em;
+      color: #086BCF;
+    }
+
+}
+
+#archive {
+  top:0;
+
+  h2 {
+      font-family: 'Cabin Sketch', serif;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  h4 {
+      background-color: darken($background-color, 10%);
+      line-height: normal;
+      font-size:1.2em;
+      padding-left: 15px;
+    }
+
+  li {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      font-size: 1em;
+      color: darken($background-color, 35%);
+      //display: none;
+
+        &:after {
+          display: block;
+          content: '';
+          text-align: center;
+          height: 2px;
+          margin: auto;
+          background-color: darken($background-color, 5%);
+        }
+      }
+
+  a {
+    color: $text-color;
+    &:hover {
+      color: #086BCF;
+    }
+    &:visited {
+      color: lighten($text-color, 30%);
+    }
+  }
+
 }
 
 #sidebar {
+  position: static;
   float: right;
-  margin-right: 20%;
+  margin-top: 5%;
   max-width: 20%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  margin-right: 10%;
 }
 
+@media screen and (max-width: 875px) {
+  #photo-bar, #sidebar {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+  }
+
+  #search {
+    max-width: 50%;
+  }
+
+  #main-posts, #search-results {
+    max-width: 90%;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.bottom-post-bar {
+
+  height: 120 px;
+  width: 100%;
+  margin-bottom: 10%;
+  display: block;
+
+  &::before {
+    display: block;
+    content: '';
+    text-align: center;
+    height: 2px;
+    margin-right:20%;
+    margin-left:20%;
+    background-color: black;
+  }
+
+  a {
+    &:hover {
+      color: #086BCF;
+    }
+  }
+
+  .social-sharing {
+    text-align: center;
+
+    .fa {
+      font-size: 2em;
+      padding: 4px;
+    }
+
+  }
+
+  .next-post {
+    text-align: center;
+    vertical-align: middle;
+
+    .next {
+      float: left;
+      max-width: 40%;
+    }
+
+    .prev {
+      float:right;
+      max-width: 40%;
+    }
+
+  }
+}
+
+#header {
+  width: 100% ;
+  height: 60px;
+  background-color: $background-color;
+  top:0;
+  position: fixed;
+  display: block;
+}
 /* Posts */
+
+.page-header {
+  margin-top:-5%;
+  font-family: "Cabin Sketch", serif;
+}
+.page-header::after {
+  display: block;
+  content: '';
+  height: 3px;
+  margin: auto;
+  background-color: #000000;
+}
 
 #posts {
   li {
     list-style-type: none;
   }
+
+  margin-bottom: 7%;
 }
 
 #post-page {
@@ -193,6 +464,10 @@ table {
     background-color: $text-color;
   }
 
+  .post-after {
+    text-align: right;
+  }
+
 .by-line {
   display: block;
   color: $text-color;
@@ -208,9 +483,6 @@ table {
   }
 }
 
-img {
-  display: block;
-}
 code {
   color: lighten($text-color, 35%);
   background-color: lighten($background-color, 35%);
@@ -238,7 +510,7 @@ code {
   text-align: center;
   margin: 2.666668em;
   span {
-    background-color: darken($background-color, 5%);
+    background-color: darken($background-color, 20%);
     color: $text-color;
   }
   a:hover {
@@ -258,8 +530,25 @@ code {
 }
 
 /* Footer */
+#navfooter {
+  color: $text-color;
+  text-align: center;
+  a:hover {
+    color: lighten($text-color, 20%);
+    background-color: darken($background-color, 15%);
+  }
+
+  .fa {
+    font-size: 2em;
+  }
+}
 
 footer {
   background-color: $main-color;
   color: $text-color;
+  text-align: right;
+  padding-right: 15%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   }
