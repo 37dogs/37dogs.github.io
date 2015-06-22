@@ -1,30 +1,116 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <id>{{ site.url }}</id>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <title>37 woof</title>
+ <link href="http://37dogs.com/atom.xml" rel="self"/>
+ <id>http://37dogs.com</id>
+ <updated>2015-06-22T14:36:16-04:00</updated>
  <author>
-   <name>{{ site.author.name }}</name>
-   <uri>{{ site.author.url }}</uri>
-   <email>{{ site.author.email }}</email>
+   <name>Brandon Fannin</name>
+   <uri>http://www.37dogs.com</uri>
+   <email>brandon@37dogs.com</email>
  </author>
 
- {% for post in site.posts limit: 10 %}
+ 
 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <content type="html">{{ post.content | xml_escape | truncatewords:50 }}</content>
+   <title>Some Thoughts on Albert Camus and the Meaning of Life</title>
+   <link href="http://37dogs.com/albert-camus-absurdism"/>
+   <id>http://37dogs.com/albert-camus-absurdism</id>
+   <updated>2013-01-21T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Albert_Camus&quot;&gt;Albert Camus&lt;/a&gt; was an existentialist philosopher of the mid 1900s whose views and contributions gave rise to the existentialist concept known as &lt;a href=&quot;http://en.wikipedia.org/wiki/Absurdism&quot;&gt;absurdism&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Because Albert Camus didn’t believe in any objective meaning to life, he saw that there were three options to living your life:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Commit...</content>
  </entry>
 
- {% endfor %}
+ 
+
+ <entry>
+   <title>Does Knowing More Inhibit our Ability to be Happy?</title>
+   <link href="http://37dogs.com/does-knowing-more-inhibit-happiness"/>
+   <id>http://37dogs.com/does-knowing-more-inhibit-happiness</id>
+   <updated>2013-01-15T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;A while back, I saw this image.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/img/yahya_quote.jpeg&quot; alt=&quot;Harun Yahya&quot; title=&quot;Why aren&#39;t you flying?&quot; /&gt;&lt;/p&gt; &lt;p&gt;I thought it was beautiful and it really resonated with me at the time because I was particularly unhappy with the direction I was headed. Since then, I’ve been changing my life in a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Brief Thoughts on Anxiety</title>
+   <link href="http://37dogs.com/brief-thoughts-on-anxiety"/>
+   <id>http://37dogs.com/brief-thoughts-on-anxiety</id>
+   <updated>2013-01-14T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;I definitely have a certain level of social anxiety. It doesn’t prevent me from interacting with others on a social level, but it does hinder my social functions a little bit. In particular, I have trouble meeting people without being introduced by a mutual friend, I get really anxious during...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>On Taking the Semester Off - My teacher talked me into it</title>
+   <link href="http://37dogs.com/taking-the-semester-off"/>
+   <id>http://37dogs.com/taking-the-semester-off</id>
+   <updated>2013-01-11T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;I came to college Fall 2011. After a couple of weeks, I realized that it was nothing like I expected it to be and in short, I hated it. I was learning nothing and being forced into taking classes which held absolutely zero value to life in the real world....</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Thoughts on My Existentialism Class</title>
+   <link href="http://37dogs.com/thoughts-on-existentialism-class"/>
+   <id>http://37dogs.com/thoughts-on-existentialism-class</id>
+   <updated>2013-01-10T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;First of all, what is existentialism?&lt;/p&gt; &lt;p&gt;Existentialism is a branch of philosophy that basically seeks to find out the purpose of human existence.&lt;/p&gt; &lt;p&gt;Because of the nature of the course, the class is filled with 60 college kids who are all struggling to find out who they are. It’s beautiful...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Absurdity in Common Societal Places</title>
+   <link href="http://37dogs.com/absurdity-common-societal-places"/>
+   <id>http://37dogs.com/absurdity-common-societal-places</id>
+   <updated>2012-11-13T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;Perspective is perhaps my favorite topic. I love thinking, writing, and talking about perspective. I think about perspective a lot and this past summer. I believe that perspective is all that segregates and divides humans and I believe that if we all see life through each other’s windows instead of...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Social Sacrifice</title>
+   <link href="http://37dogs.com/social-sacrifice"/>
+   <id>http://37dogs.com/social-sacrifice</id>
+   <updated>2012-11-12T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;This weekend, I did a little bit of stepping back and observing. I don’t really know what exactly defines an epiphany, but I’m pretty sure I had one or four of those on Saturday night. Coming out of the weekend though, there are two distinct topics that I’m still thinking...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>5 Things you can do to get a job out of college</title>
+   <link href="http://37dogs.com/5-things-to-get-a-job-after-college"/>
+   <id>http://37dogs.com/5-things-to-get-a-job-after-college</id>
+   <updated>2012-11-07T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;I made the mistake of getting on Facebook today, the day after an election. The aftermath was real and Facebook looked tired and abused. I noticed a lot of angry rants from high school/college students that were based off of what I believe to be misinformation. Though the content of...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Thoughts on Minimalism</title>
+   <link href="http://37dogs.com/thoughts-on-minimalism"/>
+   <id>http://37dogs.com/thoughts-on-minimalism</id>
+   <updated>2012-10-17T00:00:00-04:00</updated>
+   <content type="html">&lt;p&gt;Looking for something to do in Findlay, OH is no small task. Options are limited and when it’s all said and done, it’s probably better just to post up with a good book on the back porch and just absorb the nothingness. However, this weekend we decided to venture out...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>A lifestyle Change</title>
+   <link href="http://37dogs.com/a-lifestyle-change"/>
+   <id>http://37dogs.com/a-lifestyle-change</id>
+   <updated>2012-08-27T00:00:00-04:00</updated>
+   <content type="html">&lt;p&gt;I’ve changed quite a bit this summer. Living alone allowed me to reflect on myself, who I was, and who I wanted to become. Having an entire summer with zero distractions really helps a person get to know themselves. Coming out of this summer, I’ve learned how to live a...</content>
+ </entry>
+
+ 
 
 </feed>
