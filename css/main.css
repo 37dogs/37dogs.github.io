@@ -452,7 +452,8 @@ blockquote {
     float: left; }
 
   #search {
-    margin-right: 35%; }
+    margin-right: 35%;
+    width: 100px; }
 
   .social-sharing {
     margin-top: 35%; }
