@@ -451,14 +451,20 @@ blockquote {
     margin-right: 5%;
     float: left; }
 
+  #search {
+    margin-right: 35%; }
+
+  .social-sharing {
+    margin-top: 35%; }
+
   #main-posts, #search-results {
     max-width: 90%;
     margin-top: 15%;
     margin-left: 5%;
     margin-right: 5%; } }
 .bottom-post-bar {
-  height: 120 px;
   width: 100%;
+  height: auto;
   margin-bottom: 10%;
   display: block; }
   .bottom-post-bar::before {
@@ -472,14 +478,15 @@ blockquote {
   .bottom-post-bar a:hover {
     color: #086BCF; }
   .bottom-post-bar .social-sharing {
-    padding-top: 20px;
+    bottom: 0;
+    padding-top: 15%;
     text-align: center; }
     .bottom-post-bar .social-sharing .fa {
       font-size: 2em;
       padding: 4px; }
   .bottom-post-bar .next-post {
     text-align: center;
-    vertical-align: middle; }
+    top: 0; }
     .bottom-post-bar .next-post .next {
       float: left;
       max-width: 40%; }
