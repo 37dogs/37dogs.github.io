@@ -47,6 +47,7 @@
 
 /* Separator after menu */
 
+/*
 #nav-list:after {
   display: block;
   content: '';
@@ -56,6 +57,7 @@
   color: $text-color;
   background-color: $text-color;
 }
+
 
 /* Icon menu */
 
@@ -123,8 +125,9 @@ width: 100%;
 #main-posts {
   margin-top: 5%;
   float: left;
-  max-width: 50%;
-  margin-left: 10%;
+  //max-width: 90%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #photo-bar {
@@ -138,11 +141,10 @@ width: 100%;
 }
 
 #search-results {
-    max-width: 40%;
-    margin-left: 10%;
     margin-top: -20px;
+    margin-bottom: 50px;
     background-color: $background-color;
-    position: fixed;
+    position: relative;
     .entries {
       margin-top: -15px;
     }
@@ -530,7 +532,7 @@ code {
 }
 
 /* Footer */
-#navfooter {
+#socialmedia {
   color: $text-color;
   text-align: center;
   a:hover {
@@ -539,7 +541,7 @@ code {
   }
 
   .fa {
-    font-size: 2em;
+    font-size: 1.3em;
   }
 }
 

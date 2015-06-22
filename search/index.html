@@ -14,10 +14,12 @@ layout: default
     <div id="search-result">
     <h4>
         {{#date}}<time datetime="{{pubdate}}" pubdate>{{displaydate}}</time>{{/date}}
-  
+
         <a href="{{url}}">{{title}} </a>
     </h4>
     </div>
+    {{/entries}}
+    {{^entries}}
     {{/entries}}
   </script>
   {% endraw %}

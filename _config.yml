@@ -38,4 +38,4 @@ gems: ['jekyll-lunr-js-search']
 
 #Lunr search excludes
 lunr_search:
-  excludes: [rss.xml, atom.xml]
+  excludes: [rss.xml, atom.xml, index.html, archives/index.html, tags/index.html]

@@ -4,10 +4,11 @@ layout: default
 <div id="tags">
 <h1>Tags</h1>
 {% for tag in site.tags %}
-  <div class="archive-group">
+  <div class="archive-group" >
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
-    <a name="{{ tag_name | slugize }}"></a>
+    <h3 id="#{{ tag_name | slugize }}">
+      <a name="{{ tag_name | slugize }}">{{ tag_name }}</a>
+    </h3>
     {% for post in site.tags[tag_name] %}
     <article class="archive-item">
       <h4><a href="{{ root_url }}{{ post.url }}">
