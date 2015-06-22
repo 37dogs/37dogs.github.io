@@ -451,9 +451,6 @@ blockquote {
     margin-right: 5%;
     float: left; }
 
-  #search {
-    max-width: 50%; }
-
   #main-posts, #search-results {
     max-width: 90%;
     margin-top: 15%;
@@ -475,6 +472,7 @@ blockquote {
   .bottom-post-bar a:hover {
     color: #086BCF; }
   .bottom-post-bar .social-sharing {
+    padding-top: 20px;
     text-align: center; }
     .bottom-post-bar .social-sharing .fa {
       font-size: 2em;
