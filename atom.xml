@@ -4,7 +4,11 @@
  <title>37 woof</title>
  <link href="http://37dogs.com/atom.xml" rel="self"/>
  <id>http://37dogs.com</id>
+<<<<<<< HEAD
  <updated>2015-06-22T15:53:09-04:00</updated>
+=======
+ <updated>2015-06-22T14:36:16-04:00</updated>
+>>>>>>> parent of fc9c262... messing with small screen size shit again
  <author>
    <name>Brandon Fannin</name>
    <uri>http://www.37dogs.com</uri>
