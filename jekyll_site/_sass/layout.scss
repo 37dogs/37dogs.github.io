@@ -1,0 +1,563 @@
+/* -- General Layout -- */
+
+.title {
+  font-family: 'Cabin Sketch', serif;
+  margin-top: 7px;
+  margin-left: 60px;
+  position: fixed;
+}
+/* Navigation */
+
+#nav, #nav-left {
+  a {
+    display: inline;
+    color: $text-color;
+    font-size: 1.5em;
+    font-weight: 400;
+    @media (min-width: 940px) {
+      font-size: 1em;
+    }
+    &:hover {
+      background-color: lighten($main-color, 5%);
+      color: darken($text-color, 20%);
+    }
+  }
+  span {
+      font-weight: 200;
+    }
+}
+
+#nav {
+  @include nav-position(right);
+}
+
+#nav-left {
+  @include nav-position(left);
+}
+
+/* Toggle class to open menu */
+
+#nav.menu-open {
+  @include open(-14rem);
+}
+
+#nav-left.menu-open-left {
+  @include open(14rem);
+}
+
+/* Separator after menu */
+
+/*
+#nav-list:after {
+  display: block;
+  content: '';
+  width: 5rem;
+  height: 1px;
+  margin: 23px auto;
+  color: $text-color;
+  background-color: $text-color;
+}
+
+
+/* Icon menu */
+
+#nav-menu {
+  @include icon-position(right);
+}
+
+#nav-menu-left {
+  @include icon-position(left);
+}
+
+#menu {
+  height: 4px;
+  width: 1.5em;
+  background-color: $text-color;
+  margin-top: 8px;
+  &:after, &:before {
+    content: "";
+    display: block;
+    position: relative;
+    height: 4px;
+    width: 1.5em;
+    background-color: $text-color;
+    transition: all 0.3s ease-in;
+  }
+  &:before {
+    top: -8px;
+  }
+  &:after {
+    top: 4px;
+  }
+  &.btn-close {
+    background: none;
+  }
+  &.btn-close:before {
+    top: 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    background-color: darken($main-color, 25%);
+  }
+  &.btn-close:after {
+    top: -4px;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            background-color: darken($main-color, 25%);
+}
+}
+/* Main content */
+
+.fixed {
+  position: fixed;
+  @media (min-width: 940px) {
+    position: static;
+  }
+}
+
+#wrap {
+width: 100%;
+}
+
+#main-posts {
+  margin-top: 5%;
+  float: left;
+  //max-width: 90%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#photo-bar {
+  float: right;
+  margin-top: 7%;
+  max-width: 20%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  margin-right: 10%;
+  display: inline-grid;
+}
+
+#search-results {
+    margin-top: -20px;
+    margin-bottom: 50px;
+    background-color: $background-color;
+    position: relative;
+    .entries {
+      margin-top: -15px;
+    }
+}
+
+#search-result {
+  display: block;
+  time {
+      color: darken($background-color, 40%);
+      font-size: .6em;
+    }
+
+  a {
+    &:hover {
+      color: #086BCF;
+    }
+  }
+
+  &::before {
+    display: block;
+    content: '';
+    text-align: center;
+    height: 2px;
+    margin: auto;
+    background-color: darken($background-color, 6%);
+  }
+}
+
+.mdash {
+  color: darken($background-color, 30%);
+}
+
+#search {
+  position:relative;
+  float: right;
+  margin-top: 15px;
+  margin-right: 11%;
+  max-width: 30%;
+  form {
+
+      i {
+          position: absolute;
+          margin-left: 15px;
+          margin-top: 9px;
+
+          .fa {
+            text-size: 2em;
+          }
+
+
+      }
+
+      input {
+        height: 35px;
+        background-color: darken($background-color, 10%);
+        border: none;
+        font-size: 1em;
+        float:left;
+        color: $text-color;
+        font-family: 'Special Elite', serif;
+        padding-left: 45px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        outline: none;
+
+        &:hover {
+          background-color: darken($background-color, 5%);
+        }
+
+      }
+
+    }
+
+  }
+
+  #tags {
+    margin-bottom: 10%;
+  }
+  .archive-group {
+    margin: 5px;
+
+    h3 {
+      background-color: darken($background-color, 10%);
+      padding-left: 10px;
+    }
+
+    &::after {
+      display: block;
+      content: '';
+      text-align: center;
+      height: 2px;
+      margin: auto;
+      background-color: darken($background-color, 5%);
+    }
+  }
+  .archive-item {
+    margin-left: 10%;
+    a:hover {
+      color: #086BCF;
+    }
+
+    .dates {
+      color: darken($background-color, 30%);
+      font-size: .9em;
+    }
+    }
+
+.post-tags {
+  margin-bottom:5%;
+  a {
+    display: inline-block;
+    position: relative;
+    background-color: darken($background-color, 10%);
+    padding:7px;
+    font-size: .7em;
+
+    &:hover{
+      font-size: .8em;
+      color: #086BCF;
+    }
+  }
+}
+
+#tag-cloud {
+    h2 {
+      font-family: 'Cabin Sketch', serif;
+    }
+
+    ul {
+      list-style-type:none;
+    }
+
+    li {
+      display: inline-block;
+      position: relative;
+      background-color: darken($background-color, 10%);
+      padding:7px;
+    }
+
+    a:hover {
+      font-size: 1.5em;
+      color: #086BCF;
+    }
+
+}
+
+#archive {
+  top:0;
+
+  h2 {
+      font-family: 'Cabin Sketch', serif;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  h4 {
+      background-color: darken($background-color, 10%);
+      line-height: normal;
+      font-size:1.2em;
+      padding-left: 15px;
+    }
+
+  li {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      font-size: 1em;
+      color: darken($background-color, 35%);
+      //display: none;
+
+        &:after {
+          display: block;
+          content: '';
+          text-align: center;
+          height: 2px;
+          margin: auto;
+          background-color: darken($background-color, 5%);
+        }
+      }
+
+  a {
+    color: $text-color;
+    &:hover {
+      color: #086BCF;
+    }
+    &:visited {
+      color: lighten($text-color, 30%);
+    }
+  }
+
+}
+
+#sidebar {
+  position: static;
+  float: right;
+  margin-top: 5%;
+  max-width: 20%;
+  margin-left: 5%;
+  margin-bottom: 7%;
+  margin-right: 10%;
+}
+
+@media screen and (max-width: 875px) {
+  #photo-bar, #sidebar {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+  }
+
+  #search {
+    margin-right: 35%;
+    width: 100px;
+  }
+
+  .social-sharing {
+      margin-top: 35%;
+  }
+
+  #main-posts, #search-results {
+    max-width: 90%;
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.bottom-post-bar {
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+  display: block;
+
+  &::before {
+    display: block;
+    content: '';
+    text-align: center;
+    height: 2px;
+    margin-right:20%;
+    margin-left:20%;
+    background-color: black;
+  }
+
+  a {
+    &:hover {
+      color: #086BCF;
+    }
+  }
+
+  .social-sharing {
+    bottom: 0;
+    padding-top: 15%;
+    text-align: center;
+
+    .fa {
+      font-size: 2em;
+      padding: 4px;
+    }
+
+  }
+
+  .next-post {
+    text-align: center;
+    top: 0;
+
+    .next {
+      float: left;
+      max-width: 40%;
+    }
+
+    .prev {
+      float:right;
+      max-width: 40%;
+    }
+
+  }
+}
+
+#header {
+  width: 100% ;
+  height: 60px;
+  background-color: $background-color;
+  top:0;
+  position: fixed;
+  display: block;
+}
+/* Posts */
+
+.page-header {
+  margin-top:-5%;
+  font-family: "Cabin Sketch", serif;
+}
+.page-header::after {
+  display: block;
+  content: '';
+  height: 3px;
+  margin: auto;
+  background-color: #000000;
+}
+
+#posts {
+  li {
+    list-style-type: none;
+  }
+
+  margin-bottom: 7%;
+}
+
+#post-page {
+  margin-bottom: 1.5em;
+  @media (min-width: 940px) {
+      margin-bottom: 1.3334em;
+    }
+}
+
+.post+.post:before {
+    display: block;
+    content: '';
+    width: 5rem;
+    height: 1px;
+    margin: 23px auto;
+    background-color: $text-color;
+  }
+
+  .post-after {
+    text-align: right;
+  }
+
+.by-line {
+  display: block;
+  color: $text-color;
+  line-height: 1.5em; /* 24px/16px */
+  margin-bottom: 1.5em; /* 24px/16px */
+  font-weight: 200;
+  @media (min-width: 940px) {
+    display: block;
+    color: $text-color;
+    line-height: 1.3334em; /* 24px/18px */
+    margin-bottom: 1.3334em; /* 24px/18px */
+    font-weight: 200;
+  }
+}
+
+code {
+  color: lighten($text-color, 35%);
+  background-color: lighten($background-color, 35%);
+}
+
+/* Set the vertical rhythm (and padding-left) for lists inside post content */
+
+.content ul, .content ol {
+  line-height: 1.5em; /* 24px/16px */
+  padding-left: 1.5em;
+  @media (min-width: 940px) {
+    line-height: 1.33334em; /* 24px/18px */
+  }
+}
+
+/* Pages */
+
+#page ul, #page ol {
+  padding-left: 1.5em;
+}
+
+/* Paginator */
+
+.pagination {
+  text-align: center;
+  margin: 2.666668em;
+  span {
+    background-color: darken($background-color, 20%);
+    color: $text-color;
+  }
+  a:hover {
+    background-color: lighten($main-color, 5%);
+  }
+}
+.page-item {
+  background-color: $main-color;
+  color: $text-color;
+  padding: 4px 8px;
+  font-weight: 400;
+  padding: 0.5em 1em;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+          border-radius: 4px;
+}
+
+/* Footer */
+#socialmedia {
+  color: $text-color;
+  text-align: center;
+  a:hover {
+    color: lighten($text-color, 20%);
+    background-color: darken($background-color, 15%);
+  }
+
+  .fa {
+    font-size: 1.3em;
+  }
+}
+
+footer {
+  background-color: $main-color;
+  color: $text-color;
+  text-align: right;
+  padding-right: 15%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }

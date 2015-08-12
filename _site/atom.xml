@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+<<<<<<< HEAD
+ <title>37 woof</title>
+ <link href="http://37dogs.com/atom.xml" rel="self"/>
+ <id>http://37dogs.com</id>
+<<<<<<< HEAD
+ <updated>2015-06-22T15:53:09-04:00</updated>
+=======
+ <updated>2015-06-22T14:36:16-04:00</updated>
+>>>>>>> parent of fc9c262... messing with small screen size shit again
+=======
+ <title>37dogs</title>
+ <link href="http://37dogs.com/atom.xml" rel="self"/>
+ <id>http://37dogs.com</id>
+ <updated>2015-08-12T00:15:20-04:00</updated>
+>>>>>>> parent of 0fd4edb... pushing generated site instead of jekyll source so that search works.
+ <author>
+   <name>Brandon Fannin</name>
+   <uri>http://www.37dogs.com</uri>
+   <email>brandon@37dogs.com</email>
+ </author>
+
+ 
+
+ <entry>
+   <title>Some Thoughts on Albert Camus and the Meaning of Life</title>
+   <link href="http://37dogs.com/albert-camus-absurdism"/>
+   <id>http://37dogs.com/albert-camus-absurdism</id>
+   <updated>2013-01-21T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Albert_Camus&quot;&gt;Albert Camus&lt;/a&gt; was an existentialist philosopher of the mid 1900s whose views and contributions gave rise to the existentialist concept known as &lt;a href=&quot;http://en.wikipedia.org/wiki/Absurdism&quot;&gt;absurdism&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Because Albert Camus didn’t believe in any objective meaning to life, he saw that there were three options to living your life:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Commit...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Some Thoughts on Albert Camus and the Meaning of Life</title>
+   <link href="http://37dogs.com/albert-camus-absurdism"/>
+   <id>http://37dogs.com/albert-camus-absurdism</id>
+   <updated>2013-01-21T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Albert_Camus&quot;&gt;Albert Camus&lt;/a&gt; was an existentialist philosopher of the mid 1900s whose views and contributions gave rise to the existentialist concept known as &lt;a href=&quot;http://en.wikipedia.org/wiki/Absurdism&quot;&gt;absurdism&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Because Albert Camus didn’t believe in any objective meaning to life, he saw that there were three options to living your life:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Commit...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Does Knowing More Inhibit our Ability to be Happy?</title>
+   <link href="http://37dogs.com/does-knowing-more-inhibit-happiness"/>
+   <id>http://37dogs.com/does-knowing-more-inhibit-happiness</id>
+   <updated>2013-01-15T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;A while back, I saw this image.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/img/yahya_quote.jpeg&quot; alt=&quot;Harun Yahya&quot; title=&quot;Why aren&#39;t you flying?&quot; /&gt;&lt;/p&gt; &lt;p&gt;I thought it was beautiful and it really resonated with me at the time because I was particularly unhappy with the direction I was headed. Since then, I’ve been changing my life in a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Does Knowing More Inhibit our Ability to be Happy?</title>
+   <link href="http://37dogs.com/does-knowing-more-inhibit-happiness"/>
+   <id>http://37dogs.com/does-knowing-more-inhibit-happiness</id>
+   <updated>2013-01-15T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;A while back, I saw this image.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/img/yahya_quote.jpeg&quot; alt=&quot;Harun Yahya&quot; title=&quot;Why aren&#39;t you flying?&quot; /&gt;&lt;/p&gt; &lt;p&gt;I thought it was beautiful and it really resonated with me at the time because I was particularly unhappy with the direction I was headed. Since then, I’ve been changing my life in a...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Brief Thoughts on Anxiety</title>
+   <link href="http://37dogs.com/brief-thoughts-on-anxiety"/>
+   <id>http://37dogs.com/brief-thoughts-on-anxiety</id>
+   <updated>2013-01-14T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;I definitely have a certain level of social anxiety. It doesn’t prevent me from interacting with others on a social level, but it does hinder my social functions a little bit. In particular, I have trouble meeting people without being introduced by a mutual friend, I get really anxious during...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Brief Thoughts on Anxiety</title>
+   <link href="http://37dogs.com/brief-thoughts-on-anxiety"/>
+   <id>http://37dogs.com/brief-thoughts-on-anxiety</id>
+   <updated>2013-01-14T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;I definitely have a certain level of social anxiety. It doesn’t prevent me from interacting with others on a social level, but it does hinder my social functions a little bit. In particular, I have trouble meeting people without being introduced by a mutual friend, I get really anxious during...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>On Taking the Semester Off - My teacher talked me into it</title>
+   <link href="http://37dogs.com/taking-the-semester-off"/>
+   <id>http://37dogs.com/taking-the-semester-off</id>
+   <updated>2013-01-11T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;I came to college Fall 2011. After a couple of weeks, I realized that it was nothing like I expected it to be and in short, I hated it. I was learning nothing and being forced into taking classes which held absolutely zero value to life in the real world....</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>On Taking the Semester Off - My teacher talked me into it</title>
+   <link href="http://37dogs.com/taking-the-semester-off"/>
+   <id>http://37dogs.com/taking-the-semester-off</id>
+   <updated>2013-01-11T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;I came to college Fall 2011. After a couple of weeks, I realized that it was nothing like I expected it to be and in short, I hated it. I was learning nothing and being forced into taking classes which held absolutely zero value to life in the real world....</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Thoughts on My Existentialism Class</title>
+   <link href="http://37dogs.com/thoughts-on-existentialism-class"/>
+   <id>http://37dogs.com/thoughts-on-existentialism-class</id>
+   <updated>2013-01-10T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;First of all, what is existentialism?&lt;/p&gt; &lt;p&gt;Existentialism is a branch of philosophy that basically seeks to find out the purpose of human existence.&lt;/p&gt; &lt;p&gt;Because of the nature of the course, the class is filled with 60 college kids who are all struggling to find out who they are. It’s beautiful...</content>
+ </entry>
+
+ 
+
+ <entry>
+   <title>Thoughts on My Existentialism Class</title>
+   <link href="http://37dogs.com/thoughts-on-existentialism-class"/>
+   <id>http://37dogs.com/thoughts-on-existentialism-class</id>
+   <updated>2013-01-10T00:00:00-05:00</updated>
+   <content type="html">&lt;p&gt;First of all, what is existentialism?&lt;/p&gt; &lt;p&gt;Existentialism is a branch of philosophy that basically seeks to find out the purpose of human existence.&lt;/p&gt; &lt;p&gt;Because of the nature of the course, the class is filled with 60 college kids who are all struggling to find out who they are. It’s beautiful...</content>
+ </entry>
+
+ 
+
+</feed>
