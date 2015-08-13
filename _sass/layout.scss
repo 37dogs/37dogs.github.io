@@ -52,7 +52,7 @@
 
 #nav-list{
 position: relative;
-display:block;
+display:inline;
 }
 
 
@@ -347,19 +347,12 @@ code {
   }
 }
 
-#logo {
-  position: relative;
-  display:inline;
-  }
+
 /* Footer */
 #socialmedia {
   color: $text-color;
   text-align: center;
   display: inline;
-  position: relative;
-  top:5%;
-  width: 15%;
-  margin-left: 5%;
 
   a {
     display: inline;

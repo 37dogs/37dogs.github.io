@@ -220,7 +220,7 @@ blockquote {
 /* Separator after menu */
 #nav-list {
   position: relative;
-  display: block; }
+  display: inline; }
 
 /* Icon menu */
 #nav-menu {
@@ -464,19 +464,11 @@ code {
   #dog-chart img {
     max-width: 200px; }
 
-#logo {
-  position: relative;
-  display: inline; }
-
 /* Footer */
 #socialmedia {
   color: #000000;
   text-align: center;
-  display: inline;
-  position: relative;
-  top: 5%;
-  width: 15%;
-  margin-left: 5%; }
+  display: inline; }
   #socialmedia a {
     display: inline; }
   #socialmedia a:hover {
