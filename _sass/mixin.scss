@@ -27,7 +27,8 @@
 @mixin nav-position($position) {
 	width: 4rem;
   position: fixed;
-  background-color: darken($main-color, 10%);
+  background-color: $main-color;
+	border: 1px solid black;
   //top: 0;
   //bottom: 0;
 	height:auto;

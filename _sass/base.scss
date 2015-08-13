@@ -10,13 +10,14 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Special Elite', serif;
 }
-
 /*- Base color -*/
 
-$main-color: #9c9c9c;
-$background-color: #a9a9a9;
+$main-color: #ffffff;
+$background-color: #ffffff;
 $text-color: #000000;
+$accent-color: #086BCF;
 
 /*variables */
 $gutter: 20px;
