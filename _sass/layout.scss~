@@ -52,7 +52,7 @@
 
 #nav-list{
 position: relative;
-display:block;
+display:inline;
 }
 
 
