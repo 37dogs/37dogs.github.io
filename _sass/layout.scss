@@ -16,7 +16,6 @@
     display: block;
     color: $text-color;
     font-size: 1.5em;
-    font-weight: 400;
     @media (min-width: 940px) {
       font-size: 1em;
     }
@@ -121,7 +120,7 @@ width: 100%;
 
 #main-posts {
   margin-top: 5%;
-  float: left;
+  //float: left;
   //max-width: 90%;
   margin-left: 20%;
   margin-right: 20%;
@@ -337,16 +336,38 @@ code {
       color: $accent-color;
     }
 }
-#dog-chart {
-  text-align: center;
-  max-width: 950px;
-  display: block;
 
-  img {
-    max-width: 200px;
+#main-quote {
+  background-image: url("/imgs/dogs/dog500.png");
+  width: 500px;
+  height:500px;
+
+p {
+  font-size: 32px;
+  display:none;
+}
+
+h1 {
+  display:none;
+}
+a {
+  font-weight: lighter;
+}
+
+
+}
+
+#main-quote:hover {
+  background-image: url("/imgs/dogs/shadow500.png");
+  p, h1 {
+    display: inline;
   }
 }
 
+#inner-main {
+  padding-top: 100px;
+  padding-left: 130px;
+}
 
 /* Footer */
 #socialmedia {

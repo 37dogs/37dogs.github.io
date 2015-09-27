@@ -147,8 +147,7 @@ blockquote {
 #nav a, #nav-left a {
   display: block;
   color: #000000;
-  font-size: 1.5em;
-  font-weight: 400; }
+  font-size: 1.5em; }
   @media (min-width: 940px) {
     #nav a, #nav-left a {
       font-size: 1em; } }
@@ -159,7 +158,7 @@ blockquote {
   font-weight: 200; }
 
 #nav {
-  width: 4rem;
+  width: 2rem;
   position: fixed;
   background-color: #ffffff;
   border: 1px solid black;
@@ -176,7 +175,7 @@ blockquote {
   text-align: center; }
 
 #nav-left {
-  width: 4rem;
+  width: 2rem;
   position: fixed;
   background-color: #ffffff;
   border: 1px solid black;
@@ -285,7 +284,6 @@ blockquote {
 
 #main-posts {
   margin-top: 5%;
-  float: left;
   margin-left: 20%;
   margin-right: 20%; }
 
@@ -457,12 +455,26 @@ code {
   .quote1 a:hover {
     color: #086BCF; }
 
-#dog-chart {
-  text-align: center;
-  max-width: 950px;
-  display: block; }
-  #dog-chart img {
-    max-width: 200px; }
+#main-quote {
+  background-image: url("/imgs/dogs/dog500.png");
+  width: 500px;
+  height: 500px; }
+  #main-quote p {
+    font-size: 32px;
+    display: none; }
+  #main-quote h1 {
+    display: none; }
+  #main-quote a {
+    font-weight: lighter; }
+
+#main-quote:hover {
+  background-image: url("/imgs/dogs/shadow500.png"); }
+  #main-quote:hover p, #main-quote:hover h1 {
+    display: inline; }
+
+#inner-main {
+  padding-top: 100px;
+  padding-left: 130px; }
 
 /* Footer */
 #socialmedia {
