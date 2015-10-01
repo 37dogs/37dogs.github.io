@@ -15,14 +15,13 @@
   a {
     display: block;
     color: $text-color;
-    font-size: 1.5em;
+    font-size: 2em;
     @media (min-width: 940px) {
       font-size: 1em;
     }
-    &:hover {
-      background-color: lighten($main-color, 5%);
-      color: darken($text-color, 20%);
-    }
+  }
+  a:hover {
+          color: #eee;
   }
   span {
       font-weight: 200;
@@ -52,6 +51,19 @@
 #nav-list{
 position: relative;
 display:inline;
+}
+
+#logo {
+  width:200px;
+  height:200px;
+  background-image:url("/imgs/dogs/dog500.png");
+  background-size: 200px 200px;
+  margin-left: 20%;
+}
+
+#logo:hover {
+  background-image: url("/imgs/dogs/shadow500.png");
+  background-size: 200px 200px;
 }
 
 
@@ -119,9 +131,9 @@ width: 100%;
 }
 
 #main-posts {
-  margin-top: 5%;
   //float: left;
   //max-width: 90%;
+  margin-top: 3%;
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -134,6 +146,12 @@ width: 100%;
   margin-bottom: 7%;
   margin-right: 10%;
   display: inline-grid;
+}
+
+#archive {
+  li {
+    list-style-type: none;
+  }
 }
 
 #search-results {
@@ -154,7 +172,7 @@ width: 100%;
 
   #main-posts {
     max-width: 90%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -288,6 +306,10 @@ code {
   @media (min-width: 940px) {
     line-height: 1.33334em; /* 24px/18px */
   }
+}
+
+.content li {
+  list-style-type: none;
 }
 
 /* Pages */

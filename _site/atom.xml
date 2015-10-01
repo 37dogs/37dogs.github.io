@@ -14,7 +14,7 @@
  <title>37dogs</title>
  <link href="http://37dogs.com/atom.xml" rel="self"/>
  <id>http://37dogs.com</id>
- <updated>2015-09-27T13:37:42-04:00</updated>
+ <updated>2015-10-01T14:28:04-04:00</updated>
 >>>>>>> parent of 0fd4edb... pushing generated site instead of jekyll source so that search works.
  <author>
    <name>Brandon Fannin</name>
@@ -25,101 +25,118 @@
  
 
  <entry>
-   <title>Some Thoughts on Albert Camus and the Meaning of Life</title>
-   <link href="http://37dogs.com/albert-camus-absurdism"/>
-   <id>http://37dogs.com/albert-camus-absurdism</id>
-   <updated>2013-01-21T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Albert_Camus&quot;&gt;Albert Camus&lt;/a&gt; was an existentialist philosopher of the mid 1900s whose views and contributions gave rise to the existentialist concept known as &lt;a href=&quot;http://en.wikipedia.org/wiki/Absurdism&quot;&gt;absurdism&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Because Albert Camus didn’t believe in any objective meaning to life, he saw that there were three options to living your life:&lt;/p&gt; &lt;blockquote&gt; &lt;ol&gt; &lt;li&gt;Commit...</content>
+   <title>I've loved too hard</title>
+   <link href="http://37dogs.com/loved-too-hard"/>
+   <id>http://37dogs.com/loved-too-hard</id>
+   <updated>2015-07-28T00:00:00-04:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;I think about love and it makes my chest feel tight.&lt;/li&gt; &lt;li&gt;I’m grasping for breaths and my heart is beating faster.&lt;/li&gt; &lt;li&gt; &lt;p&gt;My limbs start to feel shaky with nervousness.&lt;/p&gt; &lt;/li&gt; &lt;li&gt;I picture two people together and my eyes start to water.&lt;/li&gt; &lt;li&gt;I’m not going to cry, but I...</content>
  </entry>
 
  
 
  <entry>
-   <title>Does Knowing More Inhibit our Ability to be Happy?</title>
-   <link href="http://37dogs.com/does-knowing-more-inhibit-happiness"/>
-   <id>http://37dogs.com/does-knowing-more-inhibit-happiness</id>
-   <updated>2013-01-15T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;A while back, I saw this image.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;/img/yahya_quote.jpeg&quot; alt=&quot;Harun Yahya&quot; title=&quot;Why aren&#39;t you flying?&quot; /&gt;&lt;/p&gt; &lt;p&gt;I thought it was beautiful and it really resonated with me at the time because I was particularly unhappy with the direction I was headed. Since then, I’ve been changing my life in a...</content>
+   <title>Hollowness</title>
+   <link href="http://37dogs.com/hollowness"/>
+   <id>http://37dogs.com/hollowness</id>
+   <updated>2015-07-28T00:00:00-04:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;Two ex lovers meet eyes&lt;/li&gt; &lt;li&gt;and there’s a hollowness&lt;/li&gt; &lt;li&gt;but there’s a familiarity that&lt;/li&gt; &lt;li&gt;stimulates the mind and body&lt;/li&gt; &lt;li&gt;and locking eyes for 30 seconds&lt;/li&gt; &lt;li&gt;turns into a deep kiss that&lt;/li&gt; &lt;li&gt;reminds them of something, but&lt;/li&gt; &lt;li&gt; &lt;p&gt;there’s still a hollowness&lt;/p&gt; &lt;/li&gt; &lt;li&gt;The lovers’ lips meet perfectly&lt;/li&gt; &lt;li&gt;there are...</content>
  </entry>
 
  
 
  <entry>
-   <title>Brief Thoughts on Anxiety</title>
-   <link href="http://37dogs.com/brief-thoughts-on-anxiety"/>
-   <id>http://37dogs.com/brief-thoughts-on-anxiety</id>
-   <updated>2013-01-14T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;I definitely have a certain level of social anxiety. It doesn’t prevent me from interacting with others on a social level, but it does hinder my social functions a little bit. In particular, I have trouble meeting people without being introduced by a mutual friend, I get really anxious during...</content>
+   <title>Can I take a drag of that?</title>
+   <link href="http://37dogs.com/can-i-take-a-drag-of-that"/>
+   <id>http://37dogs.com/can-i-take-a-drag-of-that</id>
+   <updated>2013-03-08T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;I asked the homeless man&lt;/li&gt; &lt;li&gt;for a drag of his last cigarette&lt;/li&gt; &lt;li&gt;the only thing the man&lt;/li&gt; &lt;li&gt;had to his name&lt;/li&gt; &lt;li&gt;he passed to me&lt;/li&gt; &lt;li&gt;despite the fact&lt;/li&gt; &lt;li&gt;that I was only going to&lt;/li&gt; &lt;li&gt;help it disappear&lt;/li&gt; &lt;li&gt;I’m not sure why I asked this man&lt;/li&gt; &lt;li&gt;to share what little...</content>
  </entry>
 
  
 
  <entry>
-   <title>On Taking the Semester Off - My teacher talked me into it</title>
-   <link href="http://37dogs.com/taking-the-semester-off"/>
-   <id>http://37dogs.com/taking-the-semester-off</id>
-   <updated>2013-01-11T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;I came to college Fall 2011. After a couple of weeks, I realized that it was nothing like I expected it to be and in short, I hated it. I was learning nothing and being forced into taking classes which held absolutely zero value to life in the real world....</content>
+   <title>Remind us we're in love</title>
+   <link href="http://37dogs.com/remind-us-were-in-love"/>
+   <id>http://37dogs.com/remind-us-were-in-love</id>
+   <updated>2013-01-25T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;bottle of wine with you&lt;/li&gt; &lt;li&gt;getting friendly&lt;/li&gt; &lt;li&gt;getting tipsy&lt;/li&gt; &lt;li&gt;feel the fire with you&lt;/li&gt; &lt;li&gt;stumble towards&lt;/li&gt; &lt;li&gt;the cold beach sand&lt;/li&gt; &lt;li&gt;we fill the&lt;/li&gt; &lt;li&gt;wine bottle&lt;/li&gt; &lt;li&gt;with that white&lt;/li&gt; &lt;li&gt;Bermuda sand&lt;/li&gt; &lt;li&gt;here’s a memory&lt;/li&gt; &lt;li&gt;of us with the sand&lt;/li&gt; &lt;li&gt;between our toes&lt;/li&gt; &lt;li&gt;the gentle tides&lt;/li&gt; &lt;li&gt;teasing our calves&lt;/li&gt; &lt;li&gt;our warm...</content>
  </entry>
 
  
 
  <entry>
-   <title>Thoughts on My Existentialism Class</title>
-   <link href="http://37dogs.com/thoughts-on-existentialism-class"/>
-   <id>http://37dogs.com/thoughts-on-existentialism-class</id>
-   <updated>2013-01-10T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;First of all, what is existentialism?&lt;/p&gt; &lt;p&gt;Existentialism is a branch of philosophy that basically seeks to find out the purpose of human existence.&lt;/p&gt; &lt;p&gt;Because of the nature of the course, the class is filled with 60 college kids who are all struggling to find out who they are. It’s beautiful...</content>
+   <title>There's got to be a reason why these dogs are barking</title>
+   <link href="http://37dogs.com/reason-why-these-dogs-are-barking"/>
+   <id>http://37dogs.com/reason-why-these-dogs-are-barking</id>
+   <updated>2013-01-22T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;Cold now but warmer still&lt;/li&gt; &lt;li&gt;The dogs won’t quit barking&lt;/li&gt; &lt;li&gt;There’s got to be a reason why this match isn’t sparking&lt;/li&gt; &lt;li&gt; &lt;p&gt;There’s got to be a reason why these dogs are barking.&lt;/p&gt; &lt;/li&gt; &lt;li&gt;We take our steps or maybe two&lt;/li&gt; &lt;li&gt;The world is completely full of fluff&lt;/li&gt; &lt;li&gt;Yet...</content>
  </entry>
 
  
 
  <entry>
-   <title>Absurdity in Common Societal Places</title>
-   <link href="http://37dogs.com/absurdity-common-societal-places"/>
-   <id>http://37dogs.com/absurdity-common-societal-places</id>
-   <updated>2012-11-13T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;Perspective is perhaps my favorite topic. I love thinking, writing, and talking about perspective. I think about perspective a lot and this past summer. I believe that perspective is all that segregates and divides humans and I believe that if we all see life through each other’s windows instead of...</content>
+   <title>The most surreal dream</title>
+   <link href="http://37dogs.com/most-surreal-dream"/>
+   <id>http://37dogs.com/most-surreal-dream</id>
+   <updated>2012-12-13T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;I fall asleep as I stare at this screen.&lt;/li&gt; &lt;li&gt; &lt;p&gt;I fall deep into the most surreal dream.&lt;/p&gt; &lt;/li&gt; &lt;li&gt;The world is so dark.&lt;/li&gt; &lt;li&gt;The world is so cold.&lt;/li&gt; &lt;li&gt;There’s 7 billion people.&lt;/li&gt; &lt;li&gt;Each a story they hold.&lt;/li&gt; &lt;li&gt;I stare into their eyes,&lt;/li&gt; &lt;li&gt;look away from the screen.&lt;/li&gt; &lt;li&gt;I...</content>
  </entry>
 
  
 
  <entry>
-   <title>Social Sacrifice</title>
-   <link href="http://37dogs.com/social-sacrifice"/>
-   <id>http://37dogs.com/social-sacrifice</id>
-   <updated>2012-11-12T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;This weekend, I did a little bit of stepping back and observing. I don’t really know what exactly defines an epiphany, but I’m pretty sure I had one or four of those on Saturday night. Coming out of the weekend though, there are two distinct topics that I’m still thinking...</content>
+   <title>Oxytocin effects (love)</title>
+   <link href="http://37dogs.com/oxytocin-effects"/>
+   <id>http://37dogs.com/oxytocin-effects</id>
+   <updated>2012-12-05T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;To dance with you in the golden hour&lt;/li&gt; &lt;li&gt;To be silly with you amongst the sunflower&lt;/li&gt; &lt;li&gt;To laugh with you as we both fall down&lt;/li&gt; &lt;li&gt;To lay with you, our backs to the ground&lt;/li&gt; &lt;li&gt;To converse with you, our eyes tell the tale&lt;/li&gt; &lt;li&gt;To hold you tight as the...</content>
  </entry>
 
  
 
  <entry>
-   <title>5 Things you can do to get a job out of college</title>
-   <link href="http://37dogs.com/5-things-to-get-a-job-after-college"/>
-   <id>http://37dogs.com/5-things-to-get-a-job-after-college</id>
-   <updated>2012-11-07T00:00:00-05:00</updated>
-   <content type="html">&lt;p&gt;I made the mistake of getting on Facebook today, the day after an election. The aftermath was real and Facebook looked tired and abused. I noticed a lot of angry rants from high school/college students that were based off of what I believe to be misinformation. Though the content of...</content>
+   <title>Sorry I'm late</title>
+   <link href="http://37dogs.com/sorry-im-late"/>
+   <id>http://37dogs.com/sorry-im-late</id>
+   <updated>2012-11-26T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;I’m sorry&lt;/li&gt; &lt;li&gt;that I’m late to work&lt;/li&gt; &lt;li&gt;but there was a bird talking&lt;/li&gt; &lt;li&gt;he was speaking soft and sweetly&lt;/li&gt; &lt;li&gt; &lt;p&gt;yet nobody was listening&lt;/p&gt; &lt;/li&gt; &lt;li&gt;I had to stop and&lt;/li&gt; &lt;li&gt;hear him out&lt;/li&gt; &lt;li&gt;hear his beautiful song&lt;/li&gt; &lt;li&gt;he told me secrets&lt;/li&gt; &lt;li&gt; &lt;p&gt;of the bird variety&lt;/p&gt; &lt;/li&gt; &lt;li&gt;he told...</content>
  </entry>
 
  
 
  <entry>
-   <title>Thoughts on Minimalism</title>
-   <link href="http://37dogs.com/thoughts-on-minimalism"/>
-   <id>http://37dogs.com/thoughts-on-minimalism</id>
-   <updated>2012-10-17T00:00:00-04:00</updated>
-   <content type="html">&lt;p&gt;Looking for something to do in Findlay, OH is no small task. Options are limited and when it’s all said and done, it’s probably better just to post up with a good book on the back porch and just absorb the nothingness. However, this weekend we decided to venture out...</content>
+   <title>I am</title>
+   <link href="http://37dogs.com/i-am"/>
+   <id>http://37dogs.com/i-am</id>
+   <updated>2012-11-23T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;I&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;fire crackles&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;am&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;flash of lighting&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;nobody&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;graveyard scenery&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;but&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;loading a spaceship&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;I&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;panning space cam&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;am&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;shooting star passes&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;a&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;tumbling waterfall&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;miracle&lt;/li&gt;
+&lt;/ul&gt;
+</content>
  </entry>
 
  
 
  <entry>
-   <title>A lifestyle Change</title>
-   <link href="http://37dogs.com/a-lifestyle-change"/>
-   <id>http://37dogs.com/a-lifestyle-change</id>
-   <updated>2012-08-27T00:00:00-04:00</updated>
-   <content type="html">&lt;p&gt;I’ve changed quite a bit this summer. Living alone allowed me to reflect on myself, who I was, and who I wanted to become. Having an entire summer with zero distractions really helps a person get to know themselves. Coming out of this summer, I’ve learned how to live a...</content>
+   <title>Getting intimate with nature</title>
+   <link href="http://37dogs.com/getting-intimate-with-nature"/>
+   <id>http://37dogs.com/getting-intimate-with-nature</id>
+   <updated>2012-11-18T00:00:00-05:00</updated>
+   <content type="html">&lt;ul&gt; &lt;li&gt;do you think&lt;/li&gt; &lt;li&gt;if I strip naked here&lt;/li&gt; &lt;li&gt;I can get intimate with&lt;/li&gt; &lt;li&gt; &lt;p&gt;nature&lt;/p&gt; &lt;/li&gt; &lt;li&gt;is it as simple&lt;/li&gt; &lt;li&gt;as stripping naked here,&lt;/li&gt; &lt;li&gt;getting intimate&lt;/li&gt; &lt;li&gt; &lt;p&gt;with nature&lt;/p&gt; &lt;/li&gt; &lt;li&gt;I just want to feel&lt;/li&gt; &lt;li&gt;what the trees feel&lt;/li&gt; &lt;li&gt;and I want to&lt;/li&gt; &lt;li&gt; &lt;p&gt;show them my love&lt;/p&gt; &lt;/li&gt;...</content>
  </entry>
 
  

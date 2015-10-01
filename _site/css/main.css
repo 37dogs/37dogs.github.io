@@ -147,13 +147,12 @@ blockquote {
 #nav a, #nav-left a {
   display: block;
   color: #000000;
-  font-size: 1.5em; }
+  font-size: 2em; }
   @media (min-width: 940px) {
     #nav a, #nav-left a {
       font-size: 1em; } }
-  #nav a:hover, #nav-left a:hover {
-    background-color: white;
-    color: black; }
+#nav a:hover, #nav-left a:hover {
+  color: #eee; }
 #nav span, #nav-left span {
   font-weight: 200; }
 
@@ -162,6 +161,7 @@ blockquote {
   position: fixed;
   background-color: #ffffff;
   border: 1px solid black;
+  top: 0;
   height: auto;
   right: -14rem;
   color: #ffffff;
@@ -179,6 +179,7 @@ blockquote {
   position: fixed;
   background-color: #ffffff;
   border: 1px solid black;
+  top: 0;
   height: auto;
   left: -14rem;
   color: #ffffff;
@@ -220,6 +221,17 @@ blockquote {
 #nav-list {
   position: relative;
   display: inline; }
+
+#logo {
+  width: 200px;
+  height: 200px;
+  background-image: url("/imgs/dogs/dog500.png");
+  background-size: 200px 200px;
+  margin-left: 20%; }
+
+#logo:hover {
+  background-image: url("/imgs/dogs/shadow500.png");
+  background-size: 200px 200px; }
 
 /* Icon menu */
 #nav-menu {
@@ -283,7 +295,7 @@ blockquote {
   width: 100%; }
 
 #main-posts {
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 20%;
   margin-right: 20%; }
 
@@ -295,6 +307,9 @@ blockquote {
   margin-bottom: 7%;
   margin-right: 10%;
   display: inline-grid; }
+
+#archive li {
+  list-style-type: none; }
 
 #search-results {
   margin-top: -20px;
@@ -310,7 +325,7 @@ blockquote {
 @media screen and (max-width: 875px) {
   #main-posts {
     max-width: 90%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%; } }
 .bottom-post-bar {
@@ -416,6 +431,9 @@ code {
     .content ul, .content ol {
       line-height: 1.33334em;
       /* 24px/18px */ } }
+
+.content li {
+  list-style-type: none; }
 
 /* Pages */
 #page ul, #page ol {
