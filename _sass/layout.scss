@@ -360,12 +360,6 @@ code {
 }
 
 #main-quote {
-  @media (min-width: 940px) {
-    background-image: url("/imgs/dogs/shadow500.png");
-    p, h1 {
-      display: inline;
-}
-  }
   background-image: url("/imgs/dogs/dog500.png");
   width: 500px;
   height:500px;
@@ -381,16 +375,15 @@ h1 {
 a {
   font-weight: lighter;
 }
-
-
 }
 
-#main-quote:hover {
+#main-quote:hover, #main-quote:focus {
   background-image: url("/imgs/dogs/shadow500.png");
   p, h1 {
     display: inline;
   }
 }
+
 
 #inner-main {
   padding-top: 100px;

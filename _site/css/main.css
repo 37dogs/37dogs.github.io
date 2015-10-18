@@ -485,9 +485,9 @@ code {
   #main-quote a {
     font-weight: lighter; }
 
-#main-quote:hover {
+#main-quote:hover, #main-quote:focus {
   background-image: url("/imgs/dogs/shadow500.png"); }
-  #main-quote:hover p, #main-quote:hover h1 {
+  #main-quote:hover p, #main-quote:hover h1, #main-quote:focus p, #main-quote:focus h1 {
     display: inline; }
 
 #inner-main {
