@@ -1,20 +1,34 @@
----
-layout: default
----
-  <div id="main-quote">
-    <div id="inner-main">
-      <h1> i do art. </h1>
-    </br>
-  </br>
-        <p>
-          <!--<a href="/writings" >writings</a></br>-->
-          <a href="https://500px.com/37dogs1" >photos</a></br>
-          <a href="/poems" >poems</a></br>
-          <a href="https://github.com/37dogs" >code</a></br>
-
-          <!--<a href="/websites" >websites</a></br>-->
-        </p>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> 37 dogs </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="37 dogs not 36, not 38, 37 dogs">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/photoalbum.css">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="photos/list.js"></script>
+    <script type="text/javascript" src="js/photoalbum.js"></script>
+  </head>
+  <body ng-app="photoalbum">
+    <div ng-controller="PhotoCtrl">
+      <img class="logo" >
+      <div class="container-fluid">
+        <!----- Carousel ----->
+        <div uib-carousel active="active">
+          <div uib-slide ng-repeat="slide in slides track by slide.index"
+               index="slide.index">
+            <img ng-src="{{slide.image}}" class="slide-image">
+          </div>
+        </div>
       </div>
-  </div>
-
-<!-- Posts -->
+      <footer class="footer">
+        <a href="index.html"
+           target="_blank"> 37 dogs </a> &nbsp; | &nbsp;
+        <a href="manifesto.html" title="A MANIFESTO"
+           target="_blank"> bc 36 is too few and 38 is too much</a>
+      </footer>
+    </div>
+  </body>
+</html>
