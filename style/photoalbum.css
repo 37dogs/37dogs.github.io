@@ -36,6 +36,7 @@ body {
 	background: url(../photos/dog500.png) no-repeat;
 	background-size: cover;
 	padding:10%;
+	border: none;
 }
 
 .logo:hover {
@@ -44,7 +45,9 @@ body {
 	background: url(../photos/shadow500.png) no-repeat;
 	background-size: cover;
 	padding:10%;
+	border: none;
 }
+
 
 
 .slide-image {
