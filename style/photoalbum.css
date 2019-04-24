@@ -31,8 +31,6 @@ body {
 }
 
 .logo {
-	width:100px;
-	height:100px;
 	background: url(../photos/dog500.png) no-repeat;
 	background-size: cover;
 	padding:10%;
@@ -40,8 +38,6 @@ body {
 }
 
 .logo:hover {
-	width:100px;
-	height:100px;
 	background: url(../photos/shadow500.png) no-repeat;
 	background-size: cover;
 	padding:10%;
